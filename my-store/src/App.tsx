@@ -1,14 +1,20 @@
 import React from 'react';
-import './App.css';
-import { Navbar } from './Components';
-import { createBrowserRouter, RouterProvider,   } from 'react-router-dom';
-import { routes } from './Routes/Router';
+import logo from './logo.svg';
+import { AppRoutes } from './Routes/Router';
+import { ThemeProvider } from 'styled-components';
+import ErrorBoundary from './Pages/error/ErrorBoundries';
+
 
 function App() {
   return (
-    <div className="App">
-      <RouterProvider router={routes} />
-    </div>
+    <>
+      <ErrorBoundary>
+
+      <ThemeProvider theme={{}}>
+        <AppRoutes />
+      </ThemeProvider>
+      </ErrorBoundary>
+    </>
   );
 }
 

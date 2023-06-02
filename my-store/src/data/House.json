@@ -1,0 +1,50 @@
+[
+  {
+    "nome": "Luxury Mansion",
+    "descricao": "Uma deslumbrante mansão com vista panorâmica para o oceano. Possui um design moderno e elegante, com amplos espaços e acabamentos luxuosos.",
+    "preco": "$5.500.000",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.drumelia.com%2Fproperties%2Fparaiso-alto%2Fvilla%2FD2284&psig=AOvVaw2wLpV6s33leOsAwMI5e659&ust=1684809795698000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOiW297zh_8CFQAAAAAdAAAAABAE"
+  },
+  {
+    "nome": "Exquisite Villa",
+    "descricao": "Uma vila exuberante com jardins exóticos e piscina infinita. Oferece um estilo de vida luxuoso e privado, com ambientes espaçosos e uma atmosfera tranquila.",
+    "preco": "$3.800.000",
+    "img": "https://portugalconfidential.com/wp-content/uploads/2022/03/Exquisite-villa-Vale-do-Garrao-Algarve-feature-min.jpg"
+  },
+  {
+    "nome": "Elegant Estate",
+    "descricao": "Uma propriedade elegante e exclusiva, cercada por uma paisagem deslumbrante. Possui extensos jardins, uma piscina aquecida e uma casa principal com interiores luxuosos.",
+    "preco": "$7.200.000",
+    "img": "https://www.leveragere.com/assets/1679.jpg"
+  },
+  {
+    "nome": "Modern Mansion",
+    "descricao": "Uma mansão moderna com design arrojado e tecnologia de ponta. Oferece uma combinação perfeita de estilo contemporâneo, conforto e funcionalidade.",
+    "preco": "$6.000.000",
+    "img": "https://architecturesstyle.com/wp-content/uploads/2020/02/modern-mansions19.jpg"
+  },
+  {
+    "nome": "Luxury Retreat",
+    "descricao": "Um retiro de luxo isolado em meio à natureza. Com uma arquitetura impressionante e vistas deslumbrantes, é o lugar perfeito para relaxar e desfrutar de privacidade total.",
+    "preco": "$4.500.000",
+    "img": "https://galeriemagazine.com/wp-content/uploads/2020/03/Hi-Res-CSE-3_webcover-1920x1200.jpg"
+  },
+  {
+    "nome": "Exclusive Penthouse",
+    "descricao": "Um apartamento penthouse exclusivo com vistas deslumbrantes da cidade. Possui interiores elegantes, terraço espaçoso e acesso a comodidades luxuosas.",
+    "preco": "$2.700.000",
+    "img": "https://loveincorporated.blob.core.windows.net/contentimages/gallery/bd1025af-e29c-4fcf-b409-16446a83f607-dubai1-sothebys.jpg"
+  },
+  {
+    "nome": "Glamorous Chalet",
+    "descricao": "Um chalé glamouroso localizado nas montanhas. Com design rústico-chique e comodidades modernas, oferece uma experiência luxuosa para os amantes da natureza.",
+    "preco": "$3.200.000",
+    "img": "https://media.tatler.com/photos/6141db602f0bb1a05b6d46f4/16:9/w_2560%2Cc_limit/Chalet-Zermatt-Peak-2-Tatler-3nov14_pr_b.jpg"
+  },
+  {
+    "nome": "Prestigious Castle",
+    "descricao": "Um castelo prestigioso com séculos de história. Possui torres imponentes, salões majestosos, jardins extensos e uma vista deslumbrante do campo.",
+    "preco": "$15.000.000",
+    "img": "https://hips.hearstapps.com/hmg-prod/images/bojnice-castle-1603142898.jpg?crop=1.00xw:0.752xh;0,0.0240xh&resize=1200:*"
+  }
+]

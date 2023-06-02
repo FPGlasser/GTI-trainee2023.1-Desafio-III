@@ -1,28 +1,45 @@
-import React, { Children } from 'react'
-import {createBrowserRouter, RouterProvider} from 'react-router-dom'
-import { Layout, Home, Store, Contact } from '../Pages'
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { Layout,Home, About, Store, Contact, Products, ApiError  } from "../Pages";
 
-
-export const routes = createBrowserRouter([
+const routes = createBrowserRouter([
   {
+    path: '/',
     element: <Layout />,
+   
     children: [
       {
         path: '/',
         element: <Home />
       },
-
       {
-        path: 'loja',
+        path: '/loja',
         element: <Store />,
-        children: []
+        children: [
+          {
+            path: '/loja',
+            element: <Products/>,
+          },        
+        ]
+      },
+    
+      {
+        path: 'sobre',
+        element: <About />,
       },
 
       {
         path: 'contacto',
-        element: <Contact />
-      }
-    ]
+        element: <Contact />,
+      },
 
-  }
+      {
+        path: '/error',
+        element: <ApiError />
+      }
+    ],
+  },
+
+
 ])
+
+export const AppRoutes = () => <RouterProvider router={routes} />
