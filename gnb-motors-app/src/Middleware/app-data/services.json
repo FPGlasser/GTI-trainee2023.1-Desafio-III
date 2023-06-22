@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "",
+    "title": "Consultoria especializada" ,
+    "description": " Ajudamos a encontrar o carro de luxo que atenda às suas necessidades e desejos."
+  },
+  
+  {
+    "id": 2,
+    "image": "",
+    "title": "Demonstração e test drive" ,
+    "description": "Oferecemos test drives para que o cliente possa sentir o desempenho, o conforto e as características exclusivas do carro."
+  },
+
+  {
+    "id": 3,
+    "image": "",
+    "title": "Personalização e opções de acabamento" ,
+    "description": "Ajudamos os clientes a escolher entre uma variedade de opções de cores, estofamentos, acabamentos internos e externos, permitindo que eles criem um carro verdadeiramente único."
+  },
+  
+  {
+    "id": 4,
+    "image": "",
+    "title": "Serviço pós-venda" ,
+    "description": "Ofereça um serviço pós-venda de qualidade, auxiliando os clientes com manutenção, programação de serviços, agendamento de revisões e garantindo que os clientes recebam suporte contínuo para o seu veículo."
+  }
+  
+]

@@ -1,0 +1,8 @@
+export { default as Layout } from './layout/Layout'
+export { default as Home } from './home/Home'
+export { default as About } from './about/About'
+export { default as Store } from './store/Store'
+export { default as ErrorPage } from './error/Boundries/ErrorPage'
+export { default as Page404 } from './error/Network-error/Page404'
+export { default as Page500 } from './error/Network-error/Page500'
+export {default as AboutLoader} from './about/loader/AboutLoader'
