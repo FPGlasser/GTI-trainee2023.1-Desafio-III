@@ -1,7 +1,0 @@
-export {default as Layout} from './layout/Layout'
-export {default as Home} from './home/Home'
-export {default as Store} from './store/Store'
-export {default as About} from './about/About'
-export {default as Contact}  from './contact/Contact'
-export {default as Products} from './products/Products'
-export {default as ApiError} from './error/ApiError'

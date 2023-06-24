@@ -1,6 +1,0 @@
-export { default as Navbar } from './navbar/Navbar'
-export { default as Footer } from './footer/Footer'
-export { Header, Main, Section, Grid, Flex, Box } from './containers/Containers'
-export { default as CardProduct } from './card-product/CardProduct'
-export {default  as Banner} from './banner/Banner'
-export {default as LogoBrand} from './logo-brand/LogoBrand'
