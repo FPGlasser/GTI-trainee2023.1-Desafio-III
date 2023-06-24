@@ -23,9 +23,9 @@ const CardServices = ({ id, image, title, description }: ServiceProps) => {
   return (
     <CardService>
       <Box key={id} $col>
-        <Image src={image} />
+        <Image src={image} $br={8}/>
         <Box $col $align={'center'} $gap={16} $p={16} $justify={'center'}>
-          <Text $fs={16} $fw={600} $color={'#ec270c'}>{title}</Text>
+          <Text $fs={16} $fw={600} >{title}</Text>
           <Text $fs={14}>{description}</Text>
         </Box>
       </Box>

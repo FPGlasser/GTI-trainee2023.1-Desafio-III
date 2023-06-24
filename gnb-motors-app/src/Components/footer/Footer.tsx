@@ -24,7 +24,7 @@ const Input = styled.input`
 const Footer = () => {
   return (
     <Section $bg='#ec270c' style={{ padding: '32px 0px' }}>
-      <Grid $col_sm={1} $col_md={2} $col_lg={4} $col_xlg={4} $gap={32}>
+      <Grid $col_sm={1} $col_md={2} $col_lg={4} $col_xlg={4} $gap={32} $align="start">
         <Box $col>
           <Box>
             <Link to={'/'}>
@@ -32,7 +32,7 @@ const Footer = () => {
             </Link>
           </Box>
 
-          <p style={{ color: '#ffffffbd' }}>Potência, elegância e confiança: sua escolha certa. Acelere para o sucesso com nossos carros de primeira linha.</p>
+          <Text $color='#ffffff'>Potência, elegância e confiança: sua escolha certa. Acelere para o sucesso com nossos carros de primeira linha.</Text>
           <Box $gap={16} style={{ marginTop: '16px' }}>
             <AiFillFacebook size={20} color='#ffffffd6' />
             <AiFillLinkedin size={20} color='#FFFFFFd6' />
@@ -42,7 +42,7 @@ const Footer = () => {
 
 
         <Box $justify='center' >
-          <Box $col $gap={8}  style={{backgroundColor: 'blue', textAlign: 'center'}}>
+          <Box $col $gap={8}  style={{textAlign: 'center'}}>
             <Text $fs={20} $fw={700} $color={'#FF9736'}>Links</Text>
             {
               NavItems.map(item => (

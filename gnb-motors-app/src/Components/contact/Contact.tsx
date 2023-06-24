@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Box, Section, Text, BoxShadow } from '../../Components'
+import { Grid, Box, Section, Text, BoxShadow, Button } from '../../Components'
 import styled from 'styled-components'
 
 const Form = styled.form`
@@ -108,6 +108,7 @@ const Contact = () => {
                     $br={4}
                   />
                 </Box>
+                <Button $p={12} $bg={'#FF9736'} $br={8} $color={'#ffffff'}>Enviar</Button>
               </Box>
 
               <Box $col $gap={8}>

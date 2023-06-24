@@ -1,30 +1,30 @@
 [
   {
     "id": 1,
-    "image": "",
+    "image": "https://images.pexels.com/photos/8111895/pexels-photo-8111895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Consultoria especializada" ,
     "description": " Ajudamos a encontrar o carro de luxo que atenda às suas necessidades e desejos."
   },
   
   {
     "id": 2,
-    "image": "",
+    "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
     "title": "Demonstração e test drive" ,
     "description": "Oferecemos test drives para que o cliente possa sentir o desempenho, o conforto e as características exclusivas do carro."
   },
 
   {
     "id": 3,
-    "image": "",
+    "image": "https://images.pexels.com/photos/11968579/pexels-photo-11968579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Personalização e opções de acabamento" ,
     "description": "Ajudamos os clientes a escolher entre uma variedade de opções de cores, estofamentos, acabamentos internos e externos, permitindo que eles criem um carro verdadeiramente único."
   },
   
   {
     "id": 4,
-    "image": "",
+    "image": "https://images.pexels.com/photos/8867434/pexels-photo-8867434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "title": "Serviço pós-venda" ,
-    "description": "Ofereça um serviço pós-venda de qualidade, auxiliando os clientes com manutenção, programação de serviços, agendamento de revisões e garantindo que os clientes recebam suporte contínuo para o seu veículo."
+    "description": "Oferecemos um serviço pós-venda de qualidade, auxiliando os clientes com manutenção, programação de serviços, agendamento de revisões e garantindo que os clientes recebam suporte contínuo para o seu veículo."
   }
   
 ]

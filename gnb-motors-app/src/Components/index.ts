@@ -17,4 +17,4 @@ export { default as About } from './about-us/About'
 export { default as Contact } from './contact/Contact'
 export {default as Image} from './image/Image'
 export {default as ErrorBoundries} from './error/ErrorBoundries'
-export {default as Testimonials} from './testimonials/Testimonials'
+

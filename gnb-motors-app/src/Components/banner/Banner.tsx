@@ -1,6 +1,6 @@
 import React from 'react'
 import { CarProps } from '../../Middleware/props/Props'
-import { Grid, Box, Button } from '../'
+import { Grid, Box, Button, Section } from '../'
 
 import styled from "styled-components";
 
@@ -56,7 +56,7 @@ const BannerImg = styled.img`
 
 const Banner = ({ nome, descricao, img }: CarProps) => {
   return (
-
+<Section>
     <Grid $col_sm={1} $col_md={1} $col_lg={2} $col_xlg={2}>
       <BannerText>
         <BannerTitle >{nome}</BannerTitle>
@@ -67,6 +67,7 @@ const Banner = ({ nome, descricao, img }: CarProps) => {
       </BannerText>
       <BannerImg src={img} alt={nome} />
     </Grid>
+</Section>
   )
 }
 

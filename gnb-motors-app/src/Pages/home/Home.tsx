@@ -1,11 +1,10 @@
 import React from 'react'
-import { Grid, Section, Box, Text, LogoBrand, Button, Services, About, Contact, ErrorBoundries, Testimonials } from '../../Components'
+import { Grid, Section, Box, Text, LogoBrand, Button, Services, About, Contact, ErrorBoundries} from '../../Components'
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
 
 
 const Home = () => {
-
 
   return (
     <>
@@ -36,7 +35,6 @@ const Home = () => {
           <Box>
             <ErrorBoundries>
               <ReactPlayer width={'100%'} url="https://vimeo.com/835084068?share=copy" muted={true} playing loop controls={false} />
-             
             </ErrorBoundries>
           </Box>
         </Grid>
@@ -48,13 +46,11 @@ const Home = () => {
       <>
         <Services />
       </>
-      
+
       <>
         <About />
       </>
-      <>
-        <Testimonials />
-      </>
+     
       <>
         <Contact />
       </>
